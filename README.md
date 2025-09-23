@@ -35,7 +35,7 @@ Usage
 
 Clone the repository:
 
-git clone https://github.com/yourusername/protein-function-prediction.git
+git clone https:/Ramji7204/protein-function-prediction.git
 cd protein-function-prediction
 
 
