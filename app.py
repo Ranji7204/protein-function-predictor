@@ -20,7 +20,7 @@ if st.button("Predict"):
         try:
             features = extract_features(sequence)
             pred = model.predict(features)[0]
-            result = "✅ Enzyme" if pred == 1 else "❌ Non-Enzyme"
+            result = "Enzyme" if pred == 1 else "Non-Enzyme"
             st.success(f"Prediction: **{result}**")
         except Exception as e:
             st.error(f"Error processing sequence: {e}")
