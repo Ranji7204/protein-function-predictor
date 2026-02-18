@@ -10,8 +10,8 @@ def extract_features(seq):
     aa_comp = analysis.get_amino_acids_percent()
     return pd.DataFrame([aa_comp])
 
-st.title("🔬 Protein Function Prediction")
-st.markdown("🧬 Predict whether your protein is an **Enzyme** or **Non-Enzyme** based on its amino acid composition.")
+st.title("Protein Function Prediction")
+st.markdown("Predict whether your protein is an **Enzyme** or **Non-Enzyme** based on its amino acid composition.")
 
 sequence = st.text_area("Paste your protein sequence:", height=100)
 
